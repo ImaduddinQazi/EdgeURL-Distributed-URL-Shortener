@@ -18,8 +18,8 @@ function Footer() {
             </p>
             <div className="flex space-x-4">
               <SocialLink href="https://github.com" icon="GitHub" />
-              <SocialLink href="https://linkedin.com" icon="LinkedIn" />
-              <SocialLink href="https://twitter.com" icon="Twitter" />
+              {/* <SocialLink href="https://linkedin.com" icon="LinkedIn" /> */}
+              {/* <SocialLink href="https://twitter.com" icon="Twitter" /> */}
             </div>
           </div>
 
