@@ -7,7 +7,7 @@ function Footer() {
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
               {/* <span className="text-2xl">🔗</span> */}
-              <img src="/src/assets/logoF.png" alt="EdgeURL Logo" className="h-20 w-20" />
+              <img src="/logoF.png" alt="EdgeURL Logo" className="h-20 w-20" />
               <span className="text-xl font-semibold text-white">
                 EdgeURL
               </span>
@@ -27,10 +27,22 @@ function Footer() {
           <div>
             <h3 className="text-white font-semibold mb-4">Features</h3>
             <ul className="space-y-2 text-sm">
-              <li><a href="#" className="hover:text-white transition">URL Shortening</a></li>
-              <li><a href="#" className="hover:text-white transition">QR Code Generator</a></li>
-              <li><a href="#" className="hover:text-white transition">Click Analytics</a></li>
-              <li><a href="#" className="hover:text-white transition">Redis Caching</a></li>
+              <li className="flex items-center space-x-2">
+                <span className="text-blue-400">•</span>
+                <span>URL Shortening</span>
+              </li>
+              <li className="flex items-center space-x-2">
+                <span className="text-blue-400">•</span>
+                <span>QR Code Generator</span>
+              </li>
+              <li className="flex items-center space-x-2">
+                <span className="text-blue-400">•</span>
+                <span>Click Analytics</span>
+              </li>
+              <li className="flex items-center space-x-2">
+                <span className="text-blue-400">•</span>
+                <span>Redis Caching</span>
+              </li>
             </ul>
           </div>
 
