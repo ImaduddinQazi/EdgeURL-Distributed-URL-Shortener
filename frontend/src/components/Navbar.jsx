@@ -20,7 +20,7 @@ function Navbar() {
           <Link to="/" className="flex items-center space-x-2 group" onClick={handleNavClick}>
             <span className="text-2xl">🔗</span>
             <span className="text-xl font-semibold text-white group-hover:text-blue-400 transition">
-              LinkKit
+              EdgeURL
             </span>
           </Link>
           
